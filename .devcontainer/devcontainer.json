@@ -1,0 +1,17 @@
+{
+    "name": "myjulia",
+    "dockerFile": "../Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"mhutchie.git-graph",
+				"julialang.language-julia"
+			],
+            "settings": {
+                "workbench.colorTheme": "Default Light Modern",
+                "julia.executablePath": "/usr/local/julia/bin/julia",
+                "editor.acceptSuggestionOnEnter": "off"
+            }
+        }
+    }
+}
